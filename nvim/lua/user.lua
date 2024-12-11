@@ -20,12 +20,12 @@ vim.cmd("set number")
 vim.g.clipboard = {
 	name = 'win32yank clipboard',
 	copy = {
-		["+"] = {'/mnt/c/Users/schleucher/win32yank/target/release/win32yank.exe', '-i', '--crlf'},
-		["*"] = {'/mnt/c/Users/schleucher/win32yank/target/release/win32yank.exe', '-i', '--crlf'},
+		["+"] = {'/mnt/c/Users/--username--/win32yank/target/release/win32yank.exe', '-i', '--crlf'},
+		["*"] = {'/mnt/c/Users/--username--/win32yank/target/release/win32yank.exe', '-i', '--crlf'},
 	},
 	paste = {
-		["+"] = {'/mnt/c/Users/schleucher/win32yank/target/release/win32yank.exe', '-o', '--lf'},
-		["*"] = {'/mnt/c/Users/schleucher/win32yank/target/release/win32yank.exe', '-o', '--lf'},
+		["+"] = {'/mnt/c/Users/--username--/win32yank/target/release/win32yank.exe', '-o', '--lf'},
+		["*"] = {'/mnt/c/Users/--username--/win32yank/target/release/win32yank.exe', '-o', '--lf'},
 	},
 	cache_enabled = true,
 }
