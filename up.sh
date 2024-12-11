@@ -3,7 +3,7 @@ sudo apt install git
 git clone https://github.com/curatorsigma/curatorsigma-wsl-dotfiles ~/.config
 
 # install basic cli tools
-apt install file
+sudo apt install file
 
 # install neovim
 sudo apt-get install ninja-build gettext cmake unzip curl build-essential
