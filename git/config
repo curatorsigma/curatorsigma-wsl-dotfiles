@@ -1,0 +1,8 @@
+[alias]
+	st = status -s
+	co = checkout
+	clog = log -30 --oneline --all --graph
+[color]
+	ui = true
+[core]
+	pager = less -R
