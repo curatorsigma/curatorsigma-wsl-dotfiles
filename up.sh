@@ -14,6 +14,9 @@ cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
 
 # install tmux
 sudo apt install tmux
+# install tpm (tmux plugin manager)
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source ~/.tmux.conf
 
 # rustup
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
