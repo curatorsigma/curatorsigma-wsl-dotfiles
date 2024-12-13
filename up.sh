@@ -24,6 +24,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # ripgrep for <SPACE>-fg in nvim
 sudo apt install ripgrep
 
+# dnsutils
+sudo apt install dnsutils
+
 # echo some commands that have to be done manually (install tmux plugins)
 echo '(1) You now need to install tmux plugins with CTRL-Space, I'
 
